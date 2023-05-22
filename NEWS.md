@@ -1,8 +1,9 @@
-## version 0.0.0.9000
+# PINMA 1.1-2 (2023-04-26)
 
----
+- the threshold of truncation in the degree-of-freedom of KR was changed from 5 to 3
 
-### NEWS.md setup
+- made some small changes to the documentation (example command in KR)
 
-- added NEWS.md creation with newsmd
+# PINMA 1.1-1 (2023-03-26)
 
+- first version released on CRAN

@@ -4,7 +4,7 @@ KR <- function(y, S){
   tau_reml <- result_reml[[2]]
   kr <- KR0(y = y, S = S, tau2 = tau_reml^2)
   
-  kr[["Expected"]][["df"]][kr[["Expected"]][["df"]] < 5] <- 5		# truncation of the DF
+  kr[["Expected"]][["df"]][kr[["Expected"]][["df"]] < 3] <- 3		# truncation of the DF
   
   KR_E <- list("Coefficients" = cbind("Coef." = result_reml[[1]][, 1], 
                                              "SE" = kr[["Expected"]][["SE"]], 
